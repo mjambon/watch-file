@@ -4,7 +4,7 @@ function usage() {
     echo "\
 Usage: watch-file FILE COMMAND ARG1 ARG2 ...
 Run a command when the contents of FILE changes, killing the
-previous process if the previous command is still running.
+process corresponding to the previous command if it is still running.
 "
 }
 
